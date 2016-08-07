@@ -1,0 +1,69 @@
+/* line 3, input.scss */
+input[type=text] {
+  border: 0px;
+  background-color: #f4f4f4;
+  color: grey;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/* line 13, input.scss */
+input[type=password] {
+  border: 0px;
+  background-color: #f4f4f4;
+  color: grey;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/* line 23, input.scss */
+input[type=number] {
+  border: 0px;
+  background-color: #f4f4f4;
+  color: grey;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+/* line 33, input.scss */
+input[type=submit] {
+  border: 0px;
+  background-color: #ff2868;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* line 42, input.scss */
+.cancel_button {
+  background-color: white;
+  color: #ff2868;
+  border: 1px solid #ff2868;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+/* line 54, input.scss */
+input:focus {
+  color: #ff2868;
+}
+
+/* line 58, input.scss */
+label.error {
+  color: #ff2868;
+  font-size: small;
+  position: absolute;
+  left: 15%;
+  margin-top: 43px;
+}

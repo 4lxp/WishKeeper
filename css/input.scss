@@ -1,0 +1,64 @@
+$primaryColor: rgb(255, 40, 104);
+
+input[type=text] {
+  border: 0px;
+  background-color: rgb(244, 244, 244);
+  color: grey;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+input[type=password] {
+  border: 0px;
+  background-color: rgb(244, 244, 244);
+  color: grey;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+input[type=number] {
+  border: 0px;
+  background-color: rgb(244, 244, 244);
+  color: grey;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+input[type=submit] {
+  border: 0px;
+  background-color: $primaryColor;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cancel_button {
+  background-color: white;
+  color: $primaryColor;
+  border: 1px solid $primaryColor;
+  padding: 10px;
+  border-radius: 5px;
+  width: 80px;
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+input:focus{
+  color: $primaryColor;
+}
+
+label.error {
+    color: $primaryColor;
+    font-size:small;
+    position: absolute;
+    left: 15%;
+    margin-top: 43px;
+}

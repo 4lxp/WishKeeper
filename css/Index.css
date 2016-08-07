@@ -1,0 +1,84 @@
+/* line 3, Index.scss */
+body {
+  font-family: 'latoregular';
+}
+
+/* line 6, Index.scss */
+.container-fluid {
+  background-color: #ff2868;
+}
+
+/* line 10, Index.scss */
+.header_container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+/* line 16, Index.scss */
+.header_img {
+  width: 60%;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+/* line 22, Index.scss */
+.header_cit {
+  width: 50%;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin-top: 100px;
+}
+
+/* line 29, Index.scss */
+.header_cit_author {
+  font-size: 13px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* line 35, Index.scss */
+.header_button_container {
+  width: 100%;
+  margin-top: 100px;
+}
+
+/* line 40, Index.scss */
+.header_button {
+  width: 140px;
+  height: 60px;
+  display: inline-block;
+  color: #ff2868;
+  background-color: white;
+  font-size: 20px;
+  border-radius: 50px;
+  line-height: 60px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* line 53, Index.scss */
+.header_more_info {
+  width: 200px;
+  display: inline-block;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+/* line 61, Index.scss */
+.info_container {
+  padding: 100px;
+}
+
+/* line 64, Index.scss */
+.info_image {
+  width: 100%;
+}
+
+/* line 68, Index.scss */
+.modal_signup_button_container {
+  text-align: right;
+  margin-right: 30px;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wishkeeper</title>
+    <meta name="theme-color" content="#d6154f">
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <!-- Custom files -->
+    <link href="css/Index.css" rel="stylesheet">
+    <script src="js/Index.js"></script>
+    <link href="css/input.css" rel="stylesheet">
+    <link rel="stylesheet" href="Font/Lato/stylesheet.css" type="text/css" charset="utf-8" />
+    <!-- Jquery Validation -->
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+    <!-- remodal Plugin -->
+    <link rel="stylesheet" href="Plugin/Remodal/remodal.css">
+    <link rel="stylesheet" href="Plugin/Remodal/remodal-default-theme.css">
+    <script src="Plugin/Remodal/remodal.min.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+      <div class="container">
+        <div class="header_container">
+          <img src="Images/Logo.png" class="header_img">
+          <div class="header_cit">
+            “Sicchè quando gli dissero che era tempo di lasciare la sua roba, per pensare all'anima, uscì nel cortile come un pazzo, barcollando, e andava ammazzando a colpi di bastone le sue anitre e i suoi tacchini, e strillava: - Roba mia, vientene con me!.”
+            <div class="header_cit_author">Giovanni verga, La roba</div>
+          </div>
+          <div class="header_button_container">
+            <div id="modal_signup_button" class="header_button">
+              JOIN US
+            </div>
+            <div id="modal_login_button"class="header_button">
+              SIGN IN
+            </div>
+          </div>
+          <img src="Images/More_Info.png" class="header_more_info">
+        </div>
+
+      </div>
+    </div>
+    <div class="container info_container">
+      <div class="row">
+        <div class="col-xs-12 col-md-6">
+          <img src="Images/Info1.png" class="info_image">
+        </div>
+        <div class="col-xs-12 col-md-6">
+          <img src="Images/Info2.png" class="info_image">
+        </div>
+      </div>
+    </div>
+
+
+    <div data-remodal-id="modal_login">
+      <form  class="login_form">
+          <input placeholder="Username"class="username_login" type="text" name="username_login">
+          <br>
+          <input placeholder="Password"class="password_login" type="password" name="password_login">
+          <br>
+          <input data-remodal-action="cancel" class="cancel_button" value="CANCEL">
+          <input type="submit" name="login_button" class="login_button" value="LOGIN" />
+
+      </form>
+
+    </div>
+
+    <div data-remodal-id="modal_signup">
+      <form class="signup_form">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <input placeholder="Name" class="first_name" type="text" name="first_name">
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <input placeholder="Surname"class="last_name" type="text" name="last_name">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <input placeholder="Username"class="username_signup" type="text" name="username_signup">
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <input placeholder="Password"class="password_signup" type="password" name="password_signup">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <input placeholder="Confirm Password"class="password_confirm_signup" type="password" name="password_confirm_signup">
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="modal_signup_button_container">
+              <input data-remodal-action="cancel" class="cancel_button" value="CANCEL">
+              <input type="submit" name="signup_button" class="signup_button" value="SIGNUP">
+            </div>
+          </div>
+        </div>
+
+
+      </form>
+
+</body>
+
+</html>

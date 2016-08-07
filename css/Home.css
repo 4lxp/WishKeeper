@@ -1,0 +1,386 @@
+/* line 6, Home.scss */
+.primaryColor {
+  color: #ff2868;
+}
+
+/* line 10, Home.scss */
+body {
+  background: #dedede;
+  font-family: 'latoregular';
+}
+
+/* line 14, Home.scss */
+.navbar_container {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+  text-align: center;
+  width: 200px;
+  border-radius: 0px;
+  background-color: white;
+  line-height: 50px;
+  -webkit-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+}
+
+/* line 27, Home.scss */
+.navbar {
+  width: 100%;
+}
+
+/* line 31, Home.scss */
+.navbar_text {
+  font-size: 19px;
+  color: #969696;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* line 38, Home.scss */
+.navbar_button {
+  background-color: white !important;
+  color: #ff2868 !important;
+  width: 160px !important;
+  border-radius: 0px !important;
+  border-top: 1px solid #969696 !important;
+  padding-top: 5px!important;
+  padding-bottom: 5px!important;
+  font-size: 15px;
+}
+
+/* line 49, Home.scss */
+.header {
+  width: 100%;
+  height: 600px;
+  background: #ff2868;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+
+/* line 58, Home.scss */
+.header_img {
+  width: 100%;
+}
+
+/* line 62, Home.scss */
+.header_search {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* line 67, Home.scss */
+.header_search {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* line 72, Home.scss */
+.header_search input {
+  border-radius: 2px;
+  padding: 15px;
+  font-size: 17px;
+  -webkit-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width: 767px) {
+  /* line 82, Home.scss */
+  .header {
+    height: 650px;
+    padding-top: 50px;
+  }
+
+  /* line 87, Home.scss */
+  .header_img_search {
+    width: 370px;
+    display: inline-block;
+  }
+
+  /* line 92, Home.scss */
+  .navbar_container {
+    position: static;
+    display: inline-block;
+    width: 70%;
+    margin-top: 60px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 101, Home.scss */
+  .header {
+    text-align: left;
+    height: 500px;
+  }
+
+  /* line 106, Home.scss */
+  .header_img_search {
+    width: 370px;
+    margin-left: 50px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 113, Home.scss */
+  .header {
+    text-align: left;
+    height: 600px;
+  }
+
+  /* line 118, Home.scss */
+  .header_img_search {
+    width: 500px;
+    margin-left: 12%;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 125, Home.scss */
+  .header {
+    text-align: center;
+    height: 600px;
+  }
+
+  /* line 129, Home.scss */
+  .header_img_search {
+    width: 550px;
+    margin-left: 0px;
+    display: inline-block;
+  }
+}
+/* line 136, Home.scss */
+.container {
+  margin-top: -160px;
+  margin-bottom: 200px;
+}
+
+@media (max-width: 767px) {
+  /* line 143, Home.scss */
+  .container {
+    margin-top: -90px;
+  }
+}
+/* line 150, Home.scss */
+.product_list_title {
+  color: white;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+/* line 155, Home.scss */
+.no_product_card_container {
+  color: #a7a7a7;
+  height: 200px;
+  background: white;
+  -webkit-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+  margin-top: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 166, Home.scss */
+.no_product_card_title {
+  width: 70%;
+  font-size: 20px;
+  color: #ff2868;
+  text-align: center;
+  display: inline-block;
+  margin-top: 40px;
+}
+
+/* line 174, Home.scss */
+.no_product_card_plus {
+  width: 70%;
+  font-size: 50px;
+  color: #ff2868;
+  text-align: center;
+  display: inline-block;
+  margin-top: 10px;
+  font-family: "latoregular";
+}
+
+/* line 184, Home.scss */
+.card_container {
+  color: #a7a7a7;
+  height: 300px;
+  background: white;
+  -webkit-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.24);
+  margin-top: 30px;
+}
+
+/* line 197, Home.scss */
+.card_image_container {
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: height 0.3s ease;
+  -moz-transition: height 0.3s ease;
+  -ms-transition: height 0.3s ease;
+  -o-transition: height 0.3s ease;
+  transition: height 0.3s ease;
+}
+
+/* line 210, Home.scss */
+.card_image {
+  width: 100%;
+  position: absolute;
+}
+
+/* line 215, Home.scss */
+.card_image_hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(255, 40, 104, 0);
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+/* line 228, Home.scss */
+.card_image_circle {
+  width: 0px;
+  height: 0px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  cursor: pointer;
+  font-size: 0px;
+  line-height: 90px;
+  text-align: center;
+  -webkit-transition: height 0.3s ease, width 0.3s ease, font-size 0.3s ease, line-height 0.3s ease;
+  -moz-transition: height 0.3s ease, width 0.3s ease, font-size 0.3s ease, line-height 0.3s ease;
+  -ms-transition: height 0.3s ease, width 0.3s ease, font-size 0.3s ease, line-height 0.3s ease;
+  -o-transition: height 0.3s ease, width 0.3s ease, font-size 0.3s ease, line-height 0.3s ease;
+  transition: height 0.3s ease, width 0.3s ease, font-size 0.3s ease, line-height 0.3s ease;
+}
+
+/* line 251, Home.scss */
+.card_footer {
+  overflow: hidden;
+  height: 70px;
+  background: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  -webkit-transition: height 0.3s ease;
+  -moz-transition: height 0.3s ease;
+  -ms-transition: height 0.3s ease;
+  -o-transition: height 0.3s ease;
+  transition: height 0.3s ease;
+}
+
+/* line 264, Home.scss */
+.card_footer_title {
+  height: 71px;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid #a7a7a7;
+  position: relative;
+  line-height: 71px;
+  font-size: 16px;
+  color: #8d8d8d;
+}
+
+/* line 276, Home.scss */
+.card_footer_title_text {
+  float: left;
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 285, Home.scss */
+.card_footer_title_price {
+  width: 30%;
+  height: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  float: right;
+  text-align: right;
+}
+
+/* line 296, Home.scss */
+.card_footer_actions {
+  height: 69px;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+  line-height: 69px;
+}
+
+/* line 304, Home.scss */
+.card_footer_actions_remove {
+  float: left;
+  width: 50%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* line 311, Home.scss */
+.card_footer_actions_edit {
+  width: 50%;
+  height: 100%;
+  float: right;
+  cursor: pointer;
+}
+
+/* line 319, Home.scss */
+.floating_action_button {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: white;
+  right: 60px;
+  bottom: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 25px;
+  text-align: center;
+  color: #ff2868;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* line 339, Home.scss */
+.modal_title {
+  font-size: 20px;
+  color: #ff2868;
+  margin-bottom: 30px;
+  text-align: left;
+  font-family: 'latomedium';
+}
+
+/* line 347, Home.scss */
+.modal_title_bottom {
+  font-size: 20px;
+  color: #ff2868;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  text-align: left;
+  font-family: 'latomedium';
+}
+
+/* line 356, Home.scss */
+.loader {
+  display: inline-block;
+}
+
+/* line 360, Home.scss */
+.loader > img {
+  width: 40px;
+}
