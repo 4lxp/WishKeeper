@@ -18,4 +18,4 @@ Wishkeeper includes the following features:
 <img src="http://i.imgur.com/rGVsPV3.png" width="640" heigth="360">
 <img src="http://i.imgur.com/ye625QY.png" width="640" heigth="360">
 
-#Developed by Alex Pagnotta
+# Developed by Alex Pagnotta
