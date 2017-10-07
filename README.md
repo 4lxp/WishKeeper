@@ -14,7 +14,6 @@ Wishkeeper includes the following features:
 * Edit Products
 * Beatiful and responsive ui
 
-#Screenshots
 <img src="http://i.imgur.com/oJqENny.png" width="640" heigth="360">
 <img src="http://i.imgur.com/rGVsPV3.png" width="640" heigth="360">
 <img src="http://i.imgur.com/ye625QY.png" width="640" heigth="360">
