@@ -14,8 +14,9 @@ Wishkeeper includes the following features:
 * Edit Products
 * Beatiful and responsive ui
 
-<img src="https://drive.google.com/uc?export=view&id=1dfCZ0YFsJ69zKoTvEpihfjRdFCXEH9qi" width="640" heigth="360">
-<img src="https://drive.google.com/uc?export=view&id=1PRNYMpzpkF0GADRDAUY2T1ok9cY4TwbO" width="640" heigth="360">
-<img src="https://drive.google.com/uc?export=view&id=1tpS54ek_8BSMVwH5HZo6huKlg68LDJJU" width="640" heigth="360">
+![Preview1](Wishkeeper-Images/1%20-%20oJqENny.png)
+![Preview2](Wishkeeper-Images/2%20-%20rGVsPV3.png)
+![Preview3](Wishkeeper-Images/3%20-%20ye625QY.png)
+
 
 # Developed by Alex Pagnotta
